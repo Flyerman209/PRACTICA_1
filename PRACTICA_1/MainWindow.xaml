@@ -1,0 +1,23 @@
+﻿<Window x:Class="PRACTICA_1.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:PRACTICA_1"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="55,38,315,267" Source="C:\Users\sdf\source\repos\PR_1\PR_1\8.png" />
+        <TextBox Name="x" HorizontalAlignment="Left" Margin="133,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="y" HorizontalAlignment="Left" Margin="133,236,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="one" HorizontalAlignment="Left" Margin="133,362,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Name="two" HorizontalAlignment="Left" Margin="114,196,0,0" TextWrapping="Wrap" Text="x" VerticalAlignment="Top"/>
+        <TextBlock Name="three" HorizontalAlignment="Left" Margin="111,238,0,0" TextWrapping="Wrap" Text="m" VerticalAlignment="Top"/>
+          <TextBlock Name="four" HorizontalAlignment="Left" Margin="88,364,0,0" TextWrapping="Wrap" Text="Ответ" VerticalAlignment="Top"/>
+        <RadioButton Name="oneuslovie" Content="sh(x)" HorizontalAlignment="Left" Margin="133,271,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="twouslovie" Content="x^2" HorizontalAlignment="Left" Margin="133,301,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="threeuslovie" Content="e^x" HorizontalAlignment="Left" Margin="133,331,0,0" VerticalAlignment="Top"/>
+        <Button Name="vichislit" Content="Вычислить" HorizontalAlignment="Left" Margin="301,268,0,0" VerticalAlignment="Top" Width="85" Click="Button_Click"/>
+        <Button Name="ochistit" Content="Очистить" HorizontalAlignment="Left" Margin="301,316,0,0" VerticalAlignment="Top" Width="85" Click="Ochistit_Click"/>
+    </Grid>
+</Window>
